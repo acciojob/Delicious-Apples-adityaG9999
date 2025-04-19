@@ -1,1 +1,116 @@
-/* your code here */
+body{
+	background-color:#00e78c;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.product{
+	display:flex;
+	background-color:white;
+	 border-radius:5px;
+	width:700px;
+	max-width:95%;
+}
+.product__photo{
+	background-color:white;
+	width:50%
+	padding:20px;
+	display:flex;
+		flex-direction:coloumn;
+	justify-content:space-between;
+	border-radius:15px;
+	box-shadow:0,15,10,black;
+	}
+.photo-main{
+	display:flex;
+	justify-content:left;
+	background-color:lawngreen;
+	border-radius:10px;
+	height:auto;
+	margin-top:50px;
+}
+.controls{
+	position:absolute;
+	top:65px;
+	right:250px;
+	display:flex;
+	gap:300px;
+	color:white;
+}
+.photo-album ul{
+	display:flex;
+	justify-content:center;
+	gap:10px;
+	margin-top:10px;
+}
+.photo-album img{
+	width:40px;
+	height:40px;
+	border:solid.1px;
+	object-fit:cover;
+}
+	
+.product-info{
+	width:50%;
+	padding:30px,25px;
+	display:flex;
+	flex-direction: column;
+  justify-content: space-between;
+}
+.title{
+	margin:50px,10px,20px,10px;
+}
+.title h1{
+	color:graytext;
+	
+	
+}
+.title span{
+	font-size:14px;
+	color:graytext;
+}
+.price{
+	color:red;
+	align-content:center;
+}
+.price span{
+	font-size:60px;
+}
+.variant{
+	color:dimgray;
+}
+.variant ul{
+	display:flex;
+	justify-content:center;
+	gap:10px;
+	margin-top:10px;
+	
+}
+.variant img{
+	width:40px;
+	height:40px;
+	border:solid.1px;
+	object-fit:cover;
+	
+}
+.description h3{
+	color:dimgray;
+	align-content:center;
+	
+}
+.description ul{
+	
+}
+.custom-button{
+	 background-color: #f44336; /* Red */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s;
+}
